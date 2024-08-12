@@ -7,4 +7,6 @@ print(list[0:6:2])
 print("hello")
 
 # hello hello
+# hello hello
 
+print("hello")
