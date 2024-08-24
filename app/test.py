@@ -16,11 +16,12 @@ print(list)
 
 
 
-# Filter out lines containing '@'
+# Filter out lines in requirements.txt containing '@'
 with open('requirements.txt', 'r') as file:
     lines = file.readlines()
 filtered_lines = [line for line in lines if '@' not in line]
 with open('requirements.txt', 'w') as file:
     file.writelines(filtered_lines)
 
-print("Removed lines containing '@' from requirements.txt.")
+
+
